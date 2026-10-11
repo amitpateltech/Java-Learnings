@@ -1,4 +1,4 @@
-package basics;
+package ifelse;
 import java.util.Scanner;
 public class Is_integer {
 	public static void main(String[]args) {
