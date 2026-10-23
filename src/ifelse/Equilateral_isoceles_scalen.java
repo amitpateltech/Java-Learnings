@@ -11,14 +11,19 @@ public class Equilateral_isoceles_scalen {
 		int b=sc.nextInt();
 		System.out.println("Enter 3rd Side : ");
 		int c=sc.nextInt();
-		 if(a==b && b==c && c==a) {
-			System.out.println("Equilateral Triangle ");
-		}
-		else if(a==b && b==c && c!=a || a==b && a==c && a!=b || b==a && b==c && b!=a) {
-			System.out.println("Isoceles Triangle ");
+		if(a+b>c && b+c>a && c+a>b) {
+			if(a==b && b==c && c==a) {
+				System.out.println("Equilateral Triangle ");
+			}
+			else if(a==b || b==c || c==a) {
+				System.out.println("Isoceles Triangle ");
+			}
+			else if(a!=b && b!=c && c!=a) {
+				System.out.println("Scalen Triangle ");
+			}	
 		}
 		else {
-			System.out.println("Invalid Triangle");
+			System.out.println("Invalid Triangle ");
 		}
-		}
+	}
 }
