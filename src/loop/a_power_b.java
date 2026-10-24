@@ -7,7 +7,7 @@ public class a_power_b {
 		int a=sc.nextInt();
 		System.out.println("Enter the power : ");
 		int b=sc.nextInt();
-		int p=1;
+		int p=2;
 		for(int i=1;i<=b;i++) {
 			p=p*a;
 		}
