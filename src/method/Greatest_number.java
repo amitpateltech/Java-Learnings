@@ -1,15 +1,18 @@
 package method;
 
 public class Greatest_number {
-	public static void max(int a,int b,int c) {
+	public static int max(int a,int b,int c) {
 		if(a>=b && a>=c) {
-			System.out.println(a);
+//			System.out.println(a);
+			return a;
 		}
 		else if(b>=a && b>=c){
-			System.out.println(b);
+//			System.out.println(b);
+			return b;
 		}
 		else {
-			System.out.println(c);
+//			System.out.println(c);
+			return c;
 		}
 //		if(a>=b) {
 //			if(a>=c) {
@@ -29,6 +32,7 @@ public class Greatest_number {
 //		}
 	}
 	public static void main(String[]args) {
-		max(10,50,30);
+		
+		System.out.println(max(10,50,60));
 	}
 }
