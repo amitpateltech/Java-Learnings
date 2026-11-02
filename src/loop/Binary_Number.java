@@ -7,12 +7,14 @@ public class Binary_Number {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the Number : ");
 		int n =sc.nextInt();
-		int r=0;
+		int p=1;
+		int c=0;
 		while(n!=0) {
 			int a=n%2;
 			n=n/2;
-		    r=r*10+a;
+		    c = c+a*p; 
+			p=p*10;
 		}
-		System.out.println(r);
+		 System.out.print(c);
 	}
 }
