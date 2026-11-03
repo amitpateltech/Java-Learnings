@@ -11,7 +11,7 @@ public class Binary_Number {
 		int c=0;
 		while(n!=0) {
 			int a=n%2;
-			n=n/2;
+			n = n/2;
 		    c = c+a*p; 
 			p=p*10;
 		}
