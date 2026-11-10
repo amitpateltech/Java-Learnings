@@ -8,7 +8,7 @@ public class InsertElementAtPosition {
 		int []arr= {10,20,30,40,50,0};
 		int target=25;
 		 
-		int n=5;
+		int n=arr.length-1;
 		int p=2;
 		for(int i=n-1;i>=p;i--) {
 			arr[i+1]=arr[i];
