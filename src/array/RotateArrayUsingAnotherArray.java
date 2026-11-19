@@ -6,10 +6,10 @@ public class RotateArrayUsingAnotherArray {
 		int d=2;
 		int []brr=new int[arr.length];
 		for(int i=0;i<arr.length;i++) {
-			brr[i]=arr[(i+d)%arr.length];
+		brr[i]=arr[(i+d)%arr.length];
 		}
-		for(int ele:brr) {
-			System.out.print(ele+" ");
+		for(int ele:brr){
+		System.out.print(ele+" ");
 		}
 	}
 }
