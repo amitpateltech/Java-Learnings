@@ -2,14 +2,14 @@ package array;
 
 public class TwoSumSortedArray {
 	public static void main(String[]args) {
-		int arr[]= {2,7,11,15};
-		int target =18;
+		int arr[]= {3,2,4};
+		int target =6;
 		int i=0;
 		int j=arr.length-1;
 		boolean flag=false;
-		while(i<j) {
+		while(i<=j) {
 			if(arr[i]+arr[j]==target) {
-				System.out.println("Found");
+				System.out.print(i+" " +" "+j);
 				flag=true;
 				break;
 			}
